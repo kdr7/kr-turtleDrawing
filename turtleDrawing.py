@@ -15,5 +15,6 @@ def square(length, angle):
     my_turtle.left(angle)
     my_turtle.forward(length)
 
+#creates loop where the function will run 4 times, drawing four squares
 for i in range(4):
     square(100, 90)
